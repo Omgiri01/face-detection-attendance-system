@@ -176,6 +176,17 @@ Or execute individual steps via script:
 
 ---
 
+## 📄 Research Paper Publication
+
+This repository contains the official implementation of the research paper:
+> **A Hybrid Approach to Automated Face Detection Attendance System: Integrating FaceNet512 Deep Embeddings with LBPH Fallback Mechanisms**  
+> *Authors:* **Om Giri**, **Sujeet Sharma**, et al.  
+> *Affiliation:* Department of Mechanical Engineering, National Institute of Technology Raipur (NIT Raipur)  
+> 📑 **Complete Paper:** [`RCP_06.pdf`](RCP_06.pdf)
+
+---
+
 ## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
