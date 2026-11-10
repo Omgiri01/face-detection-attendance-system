@@ -1,0 +1,58 @@
+# Exclude all private databases and SQLite files
+*.db
+*.sqlite
+*.sqlite3
+
+# Exclude all private biometric and face images (keep only diagrams in figures/)
+*.jpg
+*.jpeg
+*.png
+!figures/*.png
+!*.gitkeep
+
+# Exclude sensitive tabular data (except .example templates)
+*.csv
+!*.csv.example
+
+# Exclude uploaded or cropped dataset directories
+uploads/*
+!uploads/.gitkeep
+data/dataset/*
+!data/dataset/.gitkeep
+data/dataset_outliers/*
+!data/dataset_outliers/.gitkeep
+data/attendance/*
+!data/attendance/.gitkeep
+src/data/
+
+# Large Model Weights (>100MB / Multi-Gigabyte weights)
+*.yml
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+!data/models/.gitkeep
+
+# Third-party downloaded reference systems
+Other systems/
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE & OS Artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
